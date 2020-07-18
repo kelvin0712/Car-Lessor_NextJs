@@ -19,7 +19,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The project is inspire by [Bruno Antunes](https://github.com/bmvantunes)
+The project is inspired by [Bruno Antunes](https://github.com/bmvantunes)
 
 
 
