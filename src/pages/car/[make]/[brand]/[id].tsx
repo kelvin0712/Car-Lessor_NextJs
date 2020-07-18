@@ -3,6 +3,7 @@ import { openDB } from "../../../../openDB"
 import { CarModel } from "../../../../../api/Car";
 import { Paper, Grid, Typography } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
+import Head from "next/head";
 
 interface CarDetailsProps {
     car: CarModel | undefined | null;
@@ -23,6 +24,9 @@ export default function CarDetails({car}: CarDetailsProps) {
     if(!car) return <h1>Car not found!</h1>
     return (
         <div>
+        <Head>
+            <title>{car.make + '' + car.model}</title>
+        </Head>
         <Paper className={classes.paper}>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={5}>
