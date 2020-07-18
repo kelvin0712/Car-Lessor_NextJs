@@ -2,7 +2,14 @@ This is a simple car trading application built with NextJs.
 
 ## Getting Started
 
-First, run the development server:
+Frist, to install dependencies run: 
+```bash
+npm install 
+# or
+yarn
+````
+
+And, run the development server:
 
 ```bash
 npm run dev
